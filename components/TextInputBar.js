@@ -45,7 +45,7 @@ const styles = StyleSheet.create({
     position: 'relative',
     top: 10,
     backgroundColor: 'blue',
-    fontWeight: 300,
+    fontWeight: '300',
     padding: 10,
     fontSize: 400,
     width: 100,
@@ -54,8 +54,7 @@ const styles = StyleSheet.create({
   buttonText: {
     color: 'white',
     fontSize: 19,
-    fontStyle: 'bold',
-    fontWeight: 200
+    fontWeight: '200'
   }
 });
 
