@@ -1,4 +1,5 @@
-import { StyleSheet, SafeAreaView, Text} from 'react-native'
+import { StyleSheet, SafeAreaView, Text 
+} from 'react-native'
 import TextInputBar from './components/TextInputBar'
 
 export default function App () {
@@ -36,11 +37,12 @@ const styles = StyleSheet.create({
     position: 'relative',
     bottom: 15,
     fontSize: 20,
-    fontStyle: 'bold',
-    fontWeight: 500
+    fontWeight: '500',
+    marginLeft: 70
   },
   basic: {
     backgroundColor: 'rgb(0, 255, 255)',
     height: '100%'
   }
 })
+
